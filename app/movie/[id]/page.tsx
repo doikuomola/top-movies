@@ -37,7 +37,7 @@ export default async function Page({ params: { id } }: MoviePageProps) {
   const comments = await getComments(id);
 
   return (
-    <div className="shadow-lg shadow-neutral-500 p-5">
+    <div className="shadow-lg shadow-neutral-500 p-2 md:p-5">
       <h2 className="text-center font-bold text-xl mb-3">Comments</h2>
       <form
         action={submitComment}

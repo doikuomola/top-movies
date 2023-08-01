@@ -50,7 +50,7 @@ export default async function Movie({
         />
       </div>
 
-      <div className="flex gap-20">
+      <div className="flex flex-col md:flex-row gap-8 md:gap-20">
         <div className="flex-1">
           <div className="flex flex-col w-full gap-1">
             <p className="flex items-center gap-2 font-semibold">
